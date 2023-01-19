@@ -1,2 +1,5 @@
 CARDWORDS = "cardwords.txt"
+SCENARIOS_ALL = "scenarios_all.yaml"
+SCENARIOS_DATA_ALL = "scenarios_data_all.yaml"
 SCENARIOS = "scenarios.yaml"
+SCENARIOS_DATA = "scenarios_data.yaml"
