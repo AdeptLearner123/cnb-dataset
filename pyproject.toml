@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "cnb-dataset"
+version = "0.1.0"
+description = ""
+authors = ["Nalu Zou"]
+readme = "README.md"
+packages = [{include = "cnb_dataset"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+PyYAML = "^6.0"
+
+[tool.poetry.scripts]
+scenario-word-main = "cnb_dataset.scenario_word_count:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
